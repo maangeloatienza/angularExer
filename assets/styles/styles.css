@@ -1,0 +1,50 @@
+.main {
+	margin: 0;
+}
+
+#myCarousel img{
+	max-height: 400px;
+	min-height: 200px;
+	height: 400px;
+	margin:auto;
+}
+
+#logo {
+	margin: 2px;
+	height: 50px;
+	width: 50px;
+}
+
+/*ITEM STYLES*/
+
+#item img {
+	max-height:180px;
+	margin: 0 auto;
+	padding: 5px;
+}
+
+#item {
+	margin-top: 10px;
+}
+
+#item:hover{
+	box-shadow: 1px 2px 1px 2px gray;
+	border-radius: 5px;
+}
+
+table th {
+	text-align: center;
+}
+
+table button:hover ,section button:hover{
+	color: blue;
+	font-weight: bolder;
+}
+
+table button, section button {
+	background: lightblue;
+	border-radius: 5px;
+	color: white;
+	font-size: 24px;
+	margin:5px;
+}
